@@ -1,81 +1,119 @@
+# 📊 Nishant Raj • Developer Profile & Metrics
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=200&section=header&text=Nishant%20Raj%20⚡&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
+</p>
+
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=Hi%20there,%20I'm%20Nishant%20Raj%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
-
-  <!-- Animated Typing Subtitle -->
   <a href="https://github.com/Nishant-031-coder">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=550&lines=Full-Stack+Developer;Data+Science+%26+ML+Enthusiast;Backend+Engineer;Algorithmic+Problem+Solver;Generative+AI+Explorer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer;Data+Structures+%26+Algorithms+in+Java;Machine+Learning+%26+Data+Science;Building+Scalable+Backend+Systems" alt="Typing SVG" />
   </a>
 
   <br />
 
-  <!-- Badges Ribbon -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Location-India%20🇮🇳-blue?style=for-the-badge" alt="Location: India" />
-    <a href="mailto:nishantraj0804@gmail.com">
-      <img src="https://img.shields.io/badge/Email-nishantraj0804%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nishant" />
-    </a>
-    <img src="https://img.shields.io/badge/Focus-Full--Stack%20%7C%20ML%20%7C%20DSA-6E40C9?style=for-the-badge" alt="Focus" />
+    <a href="https://github.com/Nishant-031-coder"><img src="https://img.shields.io/badge/GitHub-Nishant--031--coder-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="mailto:nishantraj0804@gmail.com"><img src="https://img.shields.io/badge/Email-nishantraj0804%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <img src="https://img.shields.io/badge/Location-India%20🇮🇳-0078D4?style=for-the-badge" alt="Location" />
+    <img src="https://img.shields.io/badge/Focus-Backend%20%7C%20ML%20%7C%20DSA-6E40C9?style=for-the-badge" alt="Focus" />
   </p>
 
 </div>
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 Quick Summary
 
 ```yaml
+user: Nishant-031-coder
 name: Nishant Raj
-role: Full-Stack Developer & Machine Learning Enthusiast
-location: India 🇮🇳
-passion: Crafting efficient backend architectures, intelligent ML models, and elegant web solutions
-current_focus: Data Structures & Algorithms, Scalable Node.js Backends, Generative AI
-motto: "Transforming complex problems into clean, functional, and scalable code."
+role: Full-Stack Developer & ML / Data Science Enthusiast
+core_languages: [Java, Python, JavaScript, SQL]
+frameworks: [Node.js, Express, Scikit-Learn, Pandas, NumPy]
+current_focus: Distributed Backend Architectures, Applied Machine Learning, DSA Optimization
+motto: "Transforming complex challenges into scalable, clean, and elegant code."
 ```
-
-- 🔭 **What I'm currently working on:** Building scalable backend web applications and experimenting with Machine Learning & GenAI workflows.
-- 🧠 **Continuous Learning:** Honing my Data Structures & Algorithms problem-solving skills in **Java**.
-- 💡 **Data & AI:** Designing predictive modeling pipelines with **Python**, **Pandas**, and **Scikit-Learn**.
-- 🤝 **Collaboration:** Open to collaborating on innovative open-source projects, backend APIs, and web apps.
-- 💬 **Ask me about:** Java, Python, JavaScript, Express/Node.js, Databases, Machine Learning, or System Design basics.
-- 📫 **How to reach me:** [nishantraj0804@gmail.com](mailto:nishantraj0804@gmail.com)
 
 ---
 
-### 📊 GitHub Dynamic Metrics & Infographics
-*(Powered by [lowlighter/metrics](https://github.com/lowlighter/metrics))*
+## 📈 Activity & Metrics Showcase
+*Infographics automatically generated via [lowlighter/metrics](https://github.com/lowlighter/metrics) GitHub Action.*
 
-<div align="center">
-
-  <!-- 1. Base Overview Metrics -->
-  <img src="metrics/metrics.base.svg" onerror="this.onerror=null; this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Nishant-031-coder&show_icons=true&theme=tokyonight&hide_border=true&title_color=61DAFB&icon_color=61DAFB&text_color=A0AEC0&bg_color=0D1117';" alt="GitHub Base Metrics" width="95%" />
-
-  <br /><br />
-
-  <!-- 2. Isometric 3D Calendar -->
-  <img src="metrics/metrics.plugin.isocalendar.svg" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=Nishant-031-coder&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=61DAFB&line=61DAFB&point=FFFFFF';" alt="Isometric Commit Calendar" width="95%" />
-
-  <br /><br />
-
-  <!-- 3. Split Metrics: Languages & Habits -->
-  <table border="0" width="100%">
-    <tr>
-      <td width="50%" align="center" valign="top">
-        <img src="metrics/metrics.plugin.languages.svg" onerror="this.onerror=null; this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Nishant-031-coder&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117';" alt="Languages Breakdown" width="100%" />
-      </td>
-      <td width="50%" align="center" valign="top">
-        <img src="metrics/metrics.plugin.habits.svg" alt="Coding Habits & Rhythm" width="100%" />
-      </td>
-    </tr>
-  </table>
-
-  <br />
-
-  <!-- 4. Achievements & Badges -->
-  <img src="metrics/metrics.plugin.achievements.svg" alt="GitHub Achievements" width="95%" />
-
-</div>
+<table>
+  <tr>
+    <th colspan="2" align="center">
+      <h3>📊 General Profile Overview</h3>
+    </th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img alt="General Metrics" width="850" src="metrics/metrics.classic.svg" onerror="this.onerror=null; this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Nishant-031-coder&show_icons=true&theme=tokyonight&hide_border=true&title_color=61DAFB&icon_color=61DAFB&text_color=A0AEC0&bg_color=0D1117';" />
+    </td>
+  </tr>
+  <tr>
+    <th width="50%" align="center"><h3>📅 Isometric Commit Calendar</h3></th>
+    <th width="50%" align="center"><h3>🈷️ Languages Activity</h3></th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <details open>
+        <summary><b>Full Year Calendar (3D Isometric)</b></summary>
+        <br />
+        <img alt="Full Year Isometric Calendar" width="420" src="metrics/metrics.plugin.isocalendar.fullyear.svg" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=Nishant-031-coder&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=61DAFB&line=61DAFB&point=FFFFFF';" />
+      </details>
+      <br />
+      <details>
+        <summary><b>Half Year Calendar</b></summary>
+        <br />
+        <img alt="Half Year Isometric Calendar" width="420" src="metrics/metrics.plugin.isocalendar.svg" />
+      </details>
+      <img width="450" height="1" alt="" />
+    </td>
+    <td align="center" valign="top">
+      <details open>
+        <summary><b>Detailed Language Breakdown</b></summary>
+        <br />
+        <img alt="Languages Detailed Analysis" width="420" src="metrics/metrics.plugin.languages.details.svg" onerror="this.onerror=null; this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Nishant-031-coder&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117';" />
+      </details>
+      <br />
+      <details>
+        <summary><b>Recently Used Languages</b></summary>
+        <br />
+        <img alt="Recently Used Languages" width="420" src="metrics/metrics.plugin.languages.recent.svg" />
+      </details>
+      <img width="450" height="1" alt="" />
+    </td>
+  </tr>
+  <tr>
+    <th align="center"><h3>💡 Coding Habits & Rhythm</h3></th>
+    <th align="center"><h3>🏆 GitHub Achievements & Milestones</h3></th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <details open>
+        <summary><b>Recent Activity & Active Hours</b></summary>
+        <br />
+        <img alt="Coding Habits Activity Charts" width="420" src="metrics/metrics.plugin.habits.charts.svg" />
+      </details>
+      <br />
+      <details>
+        <summary><b>Interesting Coding Habits Facts</b></summary>
+        <br />
+        <img alt="Habits Facts" width="420" src="metrics/metrics.plugin.habits.facts.svg" />
+      </details>
+      <img width="450" height="1" alt="" />
+    </td>
+    <td align="center" valign="top">
+      <details open>
+        <summary><b>Unlocked Badges & Achievements</b></summary>
+        <br />
+        <img alt="GitHub Achievements" width="420" src="metrics/metrics.plugin.achievements.svg" />
+      </details>
+      <img width="450" height="1" alt="" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -97,7 +135,7 @@ motto: "Transforming complex problems into clean, functional, and scalable code.
 
 ---
 
-### 🌟 Featured Projects & Highlights
+### 🌟 Featured Repositories & Highlights
 
 <table>
   <tr>
@@ -152,18 +190,10 @@ motto: "Transforming complex problems into clean, functional, and scalable code.
 
 ---
 
-### 💡 Daily Dev Inspiration
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&bg_color=0D1117&quote_color=61DAFB&author_color=A0AEC0" alt="Random Dev Quote" />
-</div>
-
----
-
 ### 🤝 Let's Connect & Collaborate
 
 <div align="center">
-  <p>I'm always open to discussing new tech, collaboration opportunities, or answering questions!</p>
+  <p>Feel free to reach out for collaboration opportunities, open-source projects, or tech discussions!</p>
 
   <a href="mailto:nishantraj0804@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
@@ -172,12 +202,11 @@ motto: "Transforming complex problems into clean, functional, and scalable code.
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://github.com/Nishant-031-coder?tab=repositories">
-    <img src="https://img.shields.io/badge/All_Projects-238636?style=for-the-badge&logo=githubactions&logoColor=white" alt="Repositories" />
+    <img src="https://img.shields.io/badge/All_Repositories-238636?style=for-the-badge&logo=githubactions&logoColor=white" alt="Repositories" />
   </a>
 
   <br /><br />
 
-  <!-- Footer Banner -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=100&section=footer" width="100%" />
 
 </div>

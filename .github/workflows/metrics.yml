@@ -1,10 +1,9 @@
 name: Metrics
 on:
-  # Schedule daily updates at midnight and midday UTC
+  # Schedule updates every 12 hours
   schedule: [{cron: "0 0,12 * * *"}]
-  # Allow manual trigger via GitHub Actions UI
+  # Lines below allow the workflow to be run manually and on push to main
   workflow_dispatch:
-  # Run on push to main
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -13,22 +12,31 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Base Metrics Overview
-      - name: General Profile Overview
+      # Classic Metrics (Header, Activity, Community, Repositories)
+      - name: Classic Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics/metrics.base.svg
+          filename: metrics/metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: Nishant-031-coder
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
 
-      # 2. Isometric 3D Commit Calendar
-      - name: Isometric Commit Calendar
+      # Isometric commit calendar - Full Year
+      - name: Full Year Isometric Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Nishant-031-coder
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # Isometric commit calendar - Half Year
+      - name: Half Year Isometric Calendar
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/metrics.plugin.isocalendar.svg
@@ -36,13 +44,13 @@ jobs:
           user: Nishant-031-coder
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
-      # 3. Programming Languages Breakdown
-      - name: Languages Breakdown
+      # Languages Activity - Details
+      - name: Languages Details
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics/metrics.plugin.languages.svg
+          filename: metrics/metrics.plugin.languages.details.svg
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: Nishant-031-coder
           base: ""
@@ -51,14 +59,50 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
-      # 4. GitHub Achievements & Badges
-      - name: GitHub Achievements
+      # Languages Activity - Recently used
+      - name: Languages Recent
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.plugin.languages.recent.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Nishant-031-coder
+          base: ""
+          plugin_languages: yes
+          plugin_languages_sections: recently-used
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+
+      # Coding Habits - Charts
+      - name: Habits Charts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.plugin.habits.charts.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Nishant-031-coder
+          base: ""
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_charts: yes
+          config_timezone: Asia/Kolkata
+
+      # Coding Habits - Facts
+      - name: Habits Facts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.plugin.habits.facts.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: Nishant-031-coder
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          config_timezone: Asia/Kolkata
+
+      # Achievements
+      - name: Achievements
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/metrics.plugin.achievements.svg
@@ -69,18 +113,3 @@ jobs:
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
-
-      # 5. Coding Habits & Rhythm
-      - name: Coding Habits & Rhythm
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/metrics.plugin.habits.svg
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: Nishant-031-coder
-          base: ""
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          config_timezone: Asia/Kolkata
