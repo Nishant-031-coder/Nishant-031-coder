@@ -43,6 +43,42 @@ motto: "Transforming complex problems into clean, functional, and scalable code.
 
 ---
 
+### 📊 GitHub Dynamic Metrics & Infographics
+*(Powered by [lowlighter/metrics](https://github.com/lowlighter/metrics))*
+
+<div align="center">
+
+  <!-- 1. Base Overview Metrics -->
+  <img src="metrics/metrics.base.svg" onerror="this.onerror=null; this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Nishant-031-coder&show_icons=true&theme=tokyonight&hide_border=true&title_color=61DAFB&icon_color=61DAFB&text_color=A0AEC0&bg_color=0D1117';" alt="GitHub Base Metrics" width="95%" />
+
+  <br /><br />
+
+  <!-- 2. Isometric 3D Calendar -->
+  <img src="metrics/metrics.plugin.isocalendar.svg" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=Nishant-031-coder&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=61DAFB&line=61DAFB&point=FFFFFF';" alt="Isometric Commit Calendar" width="95%" />
+
+  <br /><br />
+
+  <!-- 3. Split Metrics: Languages & Habits -->
+  <table border="0" width="100%">
+    <tr>
+      <td width="50%" align="center" valign="top">
+        <img src="metrics/metrics.plugin.languages.svg" onerror="this.onerror=null; this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Nishant-031-coder&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117';" alt="Languages Breakdown" width="100%" />
+      </td>
+      <td width="50%" align="center" valign="top">
+        <img src="metrics/metrics.plugin.habits.svg" alt="Coding Habits & Rhythm" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <!-- 4. Achievements & Badges -->
+  <img src="metrics/metrics.plugin.achievements.svg" alt="GitHub Achievements" width="95%" />
+
+</div>
+
+---
+
 ### 🛠️ Tech Stack & Toolbox
 
 <div align="center">
@@ -113,27 +149,6 @@ motto: "Transforming complex problems into clean, functional, and scalable code.
     </td>
   </tr>
 </table>
-
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Nishant-031-coder&show_icons=true&theme=tokyonight&hide_border=true&title_color=61DAFB&icon_color=61DAFB&text_color=A0AEC0&bg_color=0D1117" alt="Nishant's GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Nishant-031-coder&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-
-  <br />
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nishant-031-coder&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=61DAFB&line=61DAFB&point=FFFFFF" alt="Activity Graph" width="95%" />
-</div>
 
 ---
 
