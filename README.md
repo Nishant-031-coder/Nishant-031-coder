@@ -48,7 +48,7 @@ motto: "Transforming complex challenges into scalable, clean, and elegant code."
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img alt="General Metrics" width="850" src="metrics/metrics.classic.svg" onerror="this.onerror=null; this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Nishant-031-coder&show_icons=true&theme=tokyonight&hide_border=true&title_color=61DAFB&icon_color=61DAFB&text_color=A0AEC0&bg_color=0D1117';" />
+      <img alt="General Metrics" width="850" src="metrics/metrics.base.svg" />
     </td>
   </tr>
   <tr>
@@ -58,15 +58,9 @@ motto: "Transforming complex challenges into scalable, clean, and elegant code."
   <tr>
     <td align="center" valign="top">
       <details open>
-        <summary><b>Full Year Calendar (3D Isometric)</b></summary>
+        <summary><b>Isometric Commit Calendar (3D Streak)</b></summary>
         <br />
-        <img alt="Full Year Isometric Calendar" width="420" src="metrics/metrics.plugin.isocalendar.fullyear.svg" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=Nishant-031-coder&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=61DAFB&line=61DAFB&point=FFFFFF';" />
-      </details>
-      <br />
-      <details>
-        <summary><b>Half Year Calendar</b></summary>
-        <br />
-        <img alt="Half Year Isometric Calendar" width="420" src="metrics/metrics.plugin.isocalendar.svg" />
+        <img alt="Isometric Commit Calendar" width="420" src="metrics/metrics.plugin.isocalendar.svg" />
       </details>
       <img width="450" height="1" alt="" />
     </td>
@@ -74,33 +68,21 @@ motto: "Transforming complex challenges into scalable, clean, and elegant code."
       <details open>
         <summary><b>Detailed Language Breakdown</b></summary>
         <br />
-        <img alt="Languages Detailed Analysis" width="420" src="metrics/metrics.plugin.languages.details.svg" onerror="this.onerror=null; this.src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Nishant-031-coder&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117';" />
-      </details>
-      <br />
-      <details>
-        <summary><b>Recently Used Languages</b></summary>
-        <br />
-        <img alt="Recently Used Languages" width="420" src="metrics/metrics.plugin.languages.recent.svg" />
+        <img alt="Languages Breakdown" width="420" src="metrics/metrics.plugin.languages.svg" />
       </details>
       <img width="450" height="1" alt="" />
     </td>
   </tr>
   <tr>
     <th align="center"><h3>💡 Coding Habits & Rhythm</h3></th>
-    <th align="center"><h3>🏆 GitHub Achievements & Milestones</h3></th>
+    <th align="center"><h3>🏆 GitHub Achievements & Badges</h3></th>
   </tr>
   <tr>
     <td align="center" valign="top">
       <details open>
         <summary><b>Recent Activity & Active Hours</b></summary>
         <br />
-        <img alt="Coding Habits Activity Charts" width="420" src="metrics/metrics.plugin.habits.charts.svg" />
-      </details>
-      <br />
-      <details>
-        <summary><b>Interesting Coding Habits Facts</b></summary>
-        <br />
-        <img alt="Habits Facts" width="420" src="metrics/metrics.plugin.habits.facts.svg" />
+        <img alt="Coding Habits & Rhythm" width="420" src="metrics/metrics.plugin.habits.svg" />
       </details>
       <img width="450" height="1" alt="" />
     </td>
